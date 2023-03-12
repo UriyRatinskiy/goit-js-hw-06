@@ -13,11 +13,10 @@ const ulList = document.querySelector("#ingredients");
 const markup = ingredients
   .map((ingredient) => `<li class="item">${ingredient}</li>`)
   .join("");
-  console.log(markup);
+  // console.log(markup);
 
 ulList.innerHTML = markup;
 
-
-
+console.log(ulList);
 
 
